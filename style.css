@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;  
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(38, 38, 38);
+}
+#Hero{
+    background: url(./images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+#Hero .Hero_Section{ 
+    display: flex;
+}
+#Hero .Hero_Info{
+    margin: 170px 150px;
+}
+#Hero .Hero_Info h4{
+    font-size: 40px;
+    margin-bottom: -50px;
+}
+#Hero .Hero_Info h3{
+    font-size: 50px;
+    color: brown;
+    margin-bottom: -5px;
+}
+#Hero .Hero_Info p{
+    font-size: 16px;
+    color: rgb(108, 108, 108);
+    margin-bottom: 30px;
+}
+#Hero .Hero_Img{
+    margin-top: 100px;
+}
+#Hero .Hero_Info a{
+    background-color: brown;
+    color: aliceblue;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+#Biography {
+    background: url(./images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+#Biography .Bio_Section{
+    display: flex;
+}
+#Biography .Bio_Section .Bio_Info{
+    margin: 170px 100px;
+}
+#Biography .Bio_Section .Bio_Info h4{
+    font-size: 40px;
+}
+#Biography .Bio_Section .Bio_Info p{
+    font-size: 16px;
+    color: rgb(108, 108, 108);
+    margin-bottom: 40px;
+    margin-top: -20px;
+}
+#Biography .Bio_Section .Bio_Img{
+    margin: 100px 150px;
+}
+#Biography .Bio_Section .Bio_Info a{
+    background-color: brown;
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+#Latest {
+    background: url(./images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 200px;
+}
+#Latest .Latest_Info h4{
+    font-size: 40px;
+    text-align: center;
+    
+}
+#Latest .Latest_Img{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+#Footer_part{
+    background: url(./images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 300px;
+    text-align: center;
+}
+#Footer_part .Footer_Info h4{
+    font-size: 35px;
+}
+#Footer_part .Footer_Info h6{
+    font-size: 18px;
+    margin-top: 80px;
+}
+#Footer_part .Footer_Info p{
+    color: rgb(108, 108, 108);
+    margin-top: -30px;
+}
+#Footer_part .Footer_Info h6{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+#Footer_part .Footer_Img_box{
+    width: 700px;
+    height: 170px;
+    border-radius: 10px;
+    background-color: brown;
+    margin-left: 325px;
+}
+#Footer_part .Footer_Img_box .Footer_Mail h4{
+    color: aliceblue;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+#Footer_part .Footer_Img_box .Footer_Mail p{
+    color: aliceblue;
+    font-size: 17px;
+    padding-top: 30px;
+}
+footer p{
+    text-align: center;
+}
